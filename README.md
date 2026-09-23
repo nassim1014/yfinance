@@ -10,4 +10,4 @@ cp .streamlit/secrets.toml.example .streamlit/secrets.toml   # then paste your H
 uv run streamlit run app.py
 ```
 Get a free token: huggingface.co/settings/tokens (fine-grained, enable "Make calls to Inference Providers").
-Change model with env var `HF_MODEL` (default `Qwen/Qwen2.5-7B-Instruct`).
+Change model with env var `HF_MODEL` (default `meta-llama/Llama-3.1-8B-Instruct`).
