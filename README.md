@@ -11,8 +11,3 @@ uv run streamlit run app.py
 ```
 Get a free token: huggingface.co/settings/tokens (fine-grained, enable "Make calls to Inference Providers").
 Change model with env var `HF_MODEL` (default `Qwen/Qwen2.5-7B-Instruct`).
-
-## Deploy (Streamlit Community Cloud)
-1. Push to GitHub.
-2. share.streamlit.io -> New app -> pick repo, main file `app.py`.
-3. Advanced settings -> Secrets: `HF_TOKEN = "hf_xxx"`.
